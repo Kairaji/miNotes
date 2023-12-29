@@ -1,0 +1,287 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="net.micode.notes"
+19    android:versionCode="1"
+20    android:versionName="0.1" >
+21
+22    <uses-sdk
+22-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:24:5-44
+23        android:minSdkVersion="30"
+23-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:24:15-41
+24        android:targetSdkVersion="30" />
+24-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:24:5-44
+25
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:26:5-81
+26-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:26:22-78
+27    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+27-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:27:5-88
+27-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:27:22-85
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:28:5-67
+28-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:28:22-64
+29    <uses-permission android:name="android.permission.READ_CONTACTS" />
+29-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:29:5-72
+29-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:29:22-69
+30    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+30-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:30:5-74
+30-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:30:22-71
+31    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+31-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:31:5-80
+31-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:31:22-77
+32    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+32-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:32:5-71
+32-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:32:22-68
+33    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+33-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:33:5-74
+33-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:33:22-71
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:34:5-81
+34-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:34:22-78
+35
+36    <application
+36-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:36:5-151:19
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@drawable/icon_app"
+39-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:37:9-42
+40        android:label="@string/app_name" >
+40-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:38:9-41
+41        <activity
+41-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:39:9-52:20
+42            android:name="net.micode.notes.ui.NotesListActivity"
+42-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:40:13-49
+43            android:configChanges="keyboardHidden|orientation|screenSize"
+43-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:41:13-74
+44            android:exported="true"
+44-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:46:53-76
+45            android:label="@string/app_name"
+45-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:42:13-45
+46            android:launchMode="singleTop"
+46-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:43:13-43
+47            android:theme="@style/NoteTheme"
+47-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:44:13-45
+48            android:uiOptions="splitActionBarWhenNarrow"
+48-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:45:13-57
+49            android:windowSoftInputMode="adjustPan" >
+49-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:46:13-52
+50            <intent-filter>
+50-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:48:13-51:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:49:17-69
+51-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:49:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:50:17-77
+53-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:50:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:54:9-83:20
+57            android:name="net.micode.notes.ui.NoteEditActivity"
+57-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:55:13-48
+58            android:configChanges="keyboardHidden|orientation|screenSize"
+58-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:56:13-74
+59            android:exported="true"
+59-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:58:46-69
+60            android:launchMode="singleTop"
+60-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:57:13-43
+61            android:theme="@style/NoteTheme" >
+61-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:58:13-45
+62            <intent-filter android:scheme="http" >
+62-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:60:13-66:29
+62-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:60:28-49
+63                <action android:name="android.intent.action.VIEW" />
+63-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:62:17-69
+63-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:62:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:63:17-76
+65-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:63:27-73
+66
+67                <data android:mimeType="vnd.android.cursor.item/text_note" />
+67-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:64:17-78
+67-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:64:23-75
+68                <data android:mimeType="vnd.android.cursor.item/call_note" />
+68-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:64:17-78
+68-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:64:23-75
+69            </intent-filter>
+70            <intent-filter>
+70-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:68:13-73:29
+71                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+71-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:69:17-79
+71-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:69:25-76
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:63:17-76
+73-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:63:27-73
+74
+75                <data android:mimeType="vnd.android.cursor.item/text_note" />
+75-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:64:17-78
+75-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:64:23-75
+76                <data android:mimeType="vnd.android.cursor.item/call_note" />
+76-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:64:17-78
+76-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:64:23-75
+77            </intent-filter>
+78            <intent-filter>
+78-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:75:13-78:29
+79                <action android:name="android.intent.action.SEARCH" />
+79-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:76:17-71
+79-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:76:25-68
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:63:17-76
+81-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:63:27-73
+82            </intent-filter>
+83
+84            <meta-data
+84-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:80:13-82:54
+85                android:name="android.app.searchable"
+85-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:81:17-54
+86                android:resource="@xml/searchable" />
+86-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:82:17-51
+87        </activity>
+88
+89        <provider
+89-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:85:9-88:43
+90            android:name="net.micode.notes.data.NotesProvider"
+90-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:86:13-63
+91            android:authorities="micode_notes"
+91-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:87:13-47
+92            android:multiprocess="true" />
+92-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:88:13-40
+93
+94        <receiver
+94-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:90:9-102:20
+95            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+95-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:91:13-57
+96            android:exported="true"
+96-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:92:51-74
+97            android:label="@string/app_widget2x2" >
+97-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:92:13-50
+98            <intent-filter>
+98-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:93:13-97:29
+99                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+99-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:94:17-84
+99-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:94:25-81
+100                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+100-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:95:17-85
+100-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:95:25-82
+101                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+101-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:96:17-85
+101-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:96:25-82
+102            </intent-filter>
+103
+104            <meta-data
+104-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:99:13-101:58
+105                android:name="android.appwidget.provider"
+105-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:100:17-58
+106                android:resource="@xml/widget_2x_info" />
+106-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:101:17-55
+107        </receiver>
+108        <receiver
+108-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:103:9-116:20
+109            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+109-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:104:13-57
+110            android:exported="true"
+110-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:105:51-74
+111            android:label="@string/app_widget4x4" >
+111-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:105:13-50
+112            <intent-filter>
+112-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:93:13-97:29
+113                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+113-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:94:17-84
+113-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:94:25-81
+114                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+114-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:95:17-85
+114-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:95:25-82
+115                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+115-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:96:17-85
+115-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:96:25-82
+116            </intent-filter>
+117
+118            <meta-data
+118-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:99:13-101:58
+119                android:name="android.appwidget.provider"
+119-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:100:17-58
+120                android:resource="@xml/widget_4x_info" />
+120-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:101:17-55
+121        </receiver>
+122        <receiver
+122-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:118:9-122:20
+123            android:name="net.micode.notes.ui.AlarmInitReceiver"
+123-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:118:19-55
+124            android:exported="true" >
+124-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:118:56-79
+125            <intent-filter>
+125-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:119:13-121:29
+126                <action android:name="android.intent.action.BOOT_COMPLETED" />
+126-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:120:17-79
+126-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:120:25-76
+127            </intent-filter>
+128        </receiver>
+129        <receiver
+129-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:124:9-127:20
+130            android:name="net.micode.notes.ui.AlarmReceiver"
+130-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:125:13-61
+131            android:exported="true"
+131-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:126:39-62
+132            android:process=":remote" >
+132-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:126:13-38
+133        </receiver>
+134
+135        <activity
+135-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:129:9-134:20
+136            android:name="net.micode.notes.ui.AlarmAlertActivity"
+136-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:130:13-50
+137            android:label="@string/app_name"
+137-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:131:13-45
+138            android:launchMode="singleInstance"
+138-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:132:13-48
+139            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
+139-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:133:13-75
+140        </activity>
+141        <activity
+141-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:136:9-141:20
+142            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+142-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:137:13-71
+143            android:label="@string/preferences_title"
+143-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:138:13-54
+144            android:launchMode="singleTop"
+144-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:139:13-43
+145            android:theme="@android:style/Theme.Holo.Light" >
+145-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:140:13-60
+146        </activity>
+147
+148        <service
+148-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:143:9-146:19
+149            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+149-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:144:13-74
+150            android:exported="false" >
+150-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:145:13-37
+151        </service>
+152
+153        <meta-data
+153-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:148:9-150:52
+154            android:name="android.app.default_searchable"
+154-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:149:13-58
+155            android:value=".ui.NoteEditActivity" />
+155-->D:\code\Notes-master 2023\Notes-master\app\src\main\AndroidManifest.xml:150:13-49
+156    </application>
+157
+158</manifest>

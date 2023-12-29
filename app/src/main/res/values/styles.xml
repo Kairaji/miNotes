@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <style name="TextAppearanceSuper">
+        <item name="android:textSize">@dimen/text_font_size_super</item>
+        <item name="android:textColorLink">#0000ff</item>
+    </style>
+    <!--这是“超级”文本样式，其中android:textSize指定了文本的字体大小
+（通过引用@dimen/text_font_size_super来定义），
+android:textColorLink设置了文本的颜色（这里是链接的颜色，值为蓝色）。-->
+    <style name="TextAppearanceLarge">
+        <item name="android:textSize">@dimen/text_font_size_large</item>
+        <item name="android:textColorLink">#0000ff</item>
+    </style>
+    <!--    这是“大号”文本样式，其设置和“超级”样式相同，只是字体大小不同。-->
+    <style name="TextAppearanceMedium">
+        <item name="android:textSize">@dimen/text_font_size_medium</item>
+        <item name="android:textColorLink">#0000ff</item>
+    </style>
+    <!--    这是“中号”文本样式，其设置和前两个样式相同，只是字体大小不同。-->
+    <style name="TextAppearanceNormal">
+        <item name="android:textSize">@dimen/text_font_size_normal</item>
+        <item name="android:textColorLink">#0000ff</item>
+    </style>
+    <!--这是“正常”文本样式，其设置和前三个样式相同，只是字体大小不同。-->
+    <style name="TextAppearancePrimaryItem">
+        <item name="android:textSize">@dimen/text_font_size_normal</item>
+        <item name="android:textColor">@color/primary_text_dark</item>
+    </style>
+    <!--定义了一个名为"TextAppearancePrimaryItem"的样式，其中android:textSize决定了文本的大小
+    （使用@dimen/text_font_size_normal进行大小设定），
+    android:textColor则设定了文本的颜色（使用@color/primary_text_dark来设定）。-->
+    <style name="TextAppearanceSecondaryItem">
+        <item name="android:textSize">@dimen/text_font_size_small</item>
+        <item name="android:textColor">@color/secondary_text_dark</item>
+    </style>
+    <!--定义了一个名为"TextAppearanceSecondaryItem"的样式，其中android:textSize决定了文本的大小
+    （使用@dimen/text_font_size_small进行大小设定），
+    android:textColor则设定了文本的颜色（使用@color/secondary_text_dark来设定）。-->
+    <style name="TextAppearanceUnderMenuIcon">
+        <item name="android:textSize">@dimen/text_font_size_normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!--定义了一个名为"TextAppearanceUnderMenuIcon"的样式，其中android:textSize决定了文本的大小
+    （使用@dimen/text_font_size_normal进行大小设定），
+    android:textColor则设定了文本的颜色（使用@android:color/black来设定）。-->
+    <style name="HighlightTextAppearancePrimary">
+        <item name="android:textSize">@dimen/text_font_size_normal</item>
+        <item name="android:textColor">@color/primary_text_dark</item>
+    </style>
+
+    <style name="HighlightTextAppearanceSecondary">
+        <item name="android:textSize">@dimen/text_font_size_small</item>
+        <item name="android:textColor">@color/secondary_text_dark</item>
+    </style>
+    <!-- <style name="HighlightTextAppearancePrimary"> 和 <style name="HighlightTextAppearanceSecondary">：
+    这两个样式分别定义了高亮文本的主样式和次样式，其中文本大小和颜色的设定和之前的样式相似。-->
+    <style name="NoteTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/NoteActionBarStyle</item>
+    </style>
+    <!--定义了一个名为"NoteTheme"的主题，其父主题是Android的Holo Light主题。其中，android:actionBarStyle设定了ActionBar的风格。-->
+    <style name="NoteActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:displayOptions" />
+        <item name="android:visibility">gone</item>
+    </style>
+    <!--    定义了一个名为"NoteActionBarStyle"的ActionBar样式，其父主题是Android的Holo Light ActionBar样式。
+    其中，android:displayOptions决定了ActionBar的显示选项，而android:visibility决定了其可见性。-->
+</resources>

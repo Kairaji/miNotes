@@ -1,0 +1,7 @@
+#Fri Oct 20 17:38:31 JST 2023
+base.0=D\:\\code\\Notes-master 2023\\Notes-master\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=D\:\\code\\Notes-master 2023\\Notes-master\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\13\\classes.dex
+path.0=0/classes.dex
+path.1=13/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
